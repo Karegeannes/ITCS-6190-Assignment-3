@@ -3,9 +3,9 @@ import time
 from flask import Flask
 
 # --- CONFIGURATION - REPLACE THESE VALUES ---
-AWS_REGION = "us-east-1"  # e.g., "us-west-2"
-ATHENA_DATABASE = "default"  # The name of your Athena database
-S3_OUTPUT_LOCATION = "s3://your-athena-results-bucket/" # Your Athena results bucket
+AWS_REGION = "us-east-1"  #us-east-1
+ATHENA_DATABASE = "orders-db"  # The name of your Athena database
+S3_OUTPUT_LOCATION = "s3://asgnmt3-bucket-2931-6203-9070/enriched/" # Your Athena results bucket
 # -------------------------------------------
 
 # Initialize Flask app and Boto3 client
