@@ -156,6 +156,7 @@ Once connected via SSH, run the following commands to install the necessary soft
     ```bash
     pip3 install Flask boto3
     ```
+<img width="2870" height="1031" alt="Set Up Web Environment" src="https://github.com/user-attachments/assets/81cd1449-586f-40d1-a365-172ff77538ab" />
 
 ---
 
@@ -189,6 +190,7 @@ Once connected via SSH, run the following commands to install the necessary soft
     http://YOUR_PUBLIC_IP_ADDRESS:5000
     ```
     You should now see your Athena Orders Dashboard!
+<img width="2314" height="1069" alt="dashboard final results" src="https://github.com/user-attachments/assets/0e514f78-3685-447b-8d58-821de1506d29" />
 
 ---
 
