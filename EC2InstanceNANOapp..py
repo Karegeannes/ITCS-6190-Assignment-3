@@ -4,7 +4,7 @@ from flask import Flask
 
 # --- CONFIGURATION - REPLACE THESE VALUES ---
 AWS_REGION = "us-east-1"  #us-east-1
-ATHENA_DATABASE = "orders-db"  # The name of your Athena database
+ATHENA_DATABASE = "orders_db"  # The name of your Athena database
 S3_OUTPUT_LOCATION = "s3://asgnmt3-bucket-2931-6203-9070/enriched/" # Your Athena results bucket
 # -------------------------------------------
 
